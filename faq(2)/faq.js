@@ -2,7 +2,9 @@ const btn = document.querySelectorAll(".accord-btn");
 const javabsoalaval = document.querySelectorAll(".javabsoalaval");
 
 btn.forEach((item, index) => {
+
   item.onclick = () => {
+    
     let iconplus = item.querySelector(".icon-plus");
     let iconminus = item.querySelector(".icon-minus");
 
@@ -16,4 +18,3 @@ btn.forEach((item, index) => {
     }
   };
 });
-

@@ -1,4 +1,4 @@
-* {
+ا* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -65,8 +65,8 @@ button:hover{
     bottom: 38px;
     left: 56px;
 }
-
 .javabsoalaval{
+    
     background-color: var(--White);
     overflow: hidden;
     font-size: 16px;
@@ -75,19 +75,27 @@ button:hover{
    transition: max-heightn 200ms ease;
     }
 
-hr {  
-    height: 1px;
-    background-color: var(--Light-pink);
-    border: none;  
-}
 
-.section-qoestion ,.icon-minus , img {
-    min-width: 30px;
-    } 
 
-    .icon-minus ,.javabsoalaval{
+    .javabsoalaval.active {
+        display: block;
+      }
+      hr {
+        height: 1px;
+        background-color: var(--Light-pink);
+        border: none;
+      }
+      
+      .section-qoestion,
+      .icon-minus,
+      img {
+        min-width: 30px;
+      }
+      
+      .icon-minus,
+      .javabsoalaval {
         display: none;
-    }
+      }
 
     @media  screen and (max-width: 375px) {
       
